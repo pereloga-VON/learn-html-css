@@ -1,12 +1,57 @@
 
-*{text-align: center; background-color:  rgb(112, 33, 216); font-family: Comic Sans MS, cursive;}
+*{text-align: center; background-color: rgb(112, 33, 216); font-family: Comic Sans MS, cursive;}
 
 
 
-h1{color:rgb(227, 212, 247);text-shadow: 1px 2px 4px  rgb(38, 16, 66); border-color: rgb(204, 182, 233); border-style: groove; border-width: 5px; margin-left:40%; margin-right: 40%;border-radius: 10px}
-main{text-shadow: 2px 4px 5px  rgb(38, 16, 66); border-color: rgb(204, 182, 233); border-style: groove; border-width: 5px; margin-left:40%; margin-right: 40%; padding-bottom: 20px;padding-top: 20px;border-radius: 10px}
+
+
+
+
+head{}
+
+
+
+
+
+
+
+
+h1{color:rgb(227, 212, 247);text-shadow: 1px 2px 4px  rgb(38, 16, 66); border-color: rgb(4, 0, 253); border-style: groove;border-radius: 10px ; border-width: 5px;padding-bottom: 5px;display: inline-block;}
+
+
+main{text-shadow: 2px 4px 5px  rgb(38, 16, 66); border-color: rgb(4, 0, 253); border-style: groove; border-width: 5px; padding-bottom: 20px;padding-top: 20px;border-radius: 10px; display: inline-block;}
+
+
+
+
+
 label{color: rgb(227, 212, 247);}
-input{background-color: rgb(204, 182, 233);border-width: 3px;border-radius: 10px; border-color: rgb(204, 182, 233);}
-::placeholder{color: black;}
-#Отправить{background-color: rgb(9, 224, 38);border-width: 3px;border-radius: 10px; border-color: rgb(204, 182, 233);}
-#Стереть{background-color: rgb(230, 20, 12);border-width: 3px;border-radius: 10px; border-color: rgb(204, 182, 233);}
+
+
+
+input{background-color: rgb(204, 182, 233);border-width: 3px;border-radius: 10px; border-color: rgb(4, 0, 253);}
+
+
+
+
+input:focus{ box-shadow: 0px 0px 10px rgb(225, 0, 255);outline: none;}
+
+
+
+input::selection {background-color: rgb(110, 101, 231)}
+
+::placeholder{color: rgb(0, 0, 0);}
+
+
+
+
+
+#Отправить{background-color: rgb(9, 224, 38);border-width: 3px;border-radius: 10px; border-color: rgb(4, 0, 253);}
+
+#Стереть{background-color: rgb(230, 20, 12);border-width: 3px;border-radius: 10px; border-color: rgb(4, 0, 253);}
+
+
+footer {position: fixed; width: 100%; padding: 10px; bottom: 0; left: 0;}
+
+
+#LVinfo{background-color: hwb(0 100% 0%); font-size: 20px; text-align: center;display: inline-block;}
